@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zaio JS Challenge</title>
+  <link rel="stylesheet" href="JS Challenge.css">
+</head>
+<body>
+    <div>
+        <button onclick="changeColorBlue()" id="btns">Blue</button>
+        <button id="display"></button><br>
+        <button onclick="changeColorGreen()" id ="btns">Green</button><br>
+        <button onclick="changeColorRed()" id="btns">Red</button>
+        
+    </div>
+
+    <script>
+        function changeColorRed() {
+            document.getElementById('display').style.backgroundColor = 'red';
+            document.getElementById('display').innerHTML = "hi, my name is is Red";
+            document.getElementById('display').innerHTML ;
+        }
+        function changeColorGreen() {
+            document.getElementById('display').style.backgroundColor = 'green';
+            document.getElementById('display').innerHTML = "hi, my name is is Green";
+        }
+        function changeColorBlue() {
+            document.getElementById('display').style.backgroundColor = 'blue';
+            document.getElementById('display').innerHTML = "hi, my name is is Blue";
+        }
+    </script>
+</body>
+</html>

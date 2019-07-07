@@ -1,0 +1,22 @@
+div{
+    border: 1px solid #000;
+    padding:50px;
+}
+#btns{
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    height: 100px;
+}
+#display{
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    width: 50%;
+    height: 340px;
+    float: right;
+    margin-top: 10px;
+
+}
